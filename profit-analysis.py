@@ -23,6 +23,7 @@ ax.set_title("Lucros ao longo do tempo")
 
 plt.show()
 
+print(
 '''
 Conclusão
 
@@ -31,3 +32,4 @@ No período de agosto a novembro de cada ano houve um crescimento no número de 
 portanto os meses anteriores são o período ideal para aumentar o marketing e atrair 
 mais clientes para aumentar ainda mais o faturamento. 
 '''
+)

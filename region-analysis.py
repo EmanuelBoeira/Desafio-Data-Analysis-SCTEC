@@ -20,6 +20,7 @@ region_sales = df.groupby("Region")["Profit"].sum()
 rect_profits = ax.bar(np.arange(len(region_profits.index)) - 0.2, region_profits, 0.4, label="Lucro")
 rect_sales = ax.bar(np.arange(len(region_sales.index)) + 0.2, region_sales, 0.4, label="Vendas")
 ax.set_xticks(np.arange(len(region_profits.index)), region_profits.index)
+ax.set_title("Lucros e Vendas por região")
 ax.grid(alpha=0.4)
 ax.legend()
 
@@ -29,6 +30,6 @@ print(
 '''
 Conclusão
 
-Leste e Oeste apresentam melhor performance tanto de vendas quanto de lucros
+Regiões Leste e Oeste apresentam melhor performance tanto de vendas quanto de lucros
 '''
 )

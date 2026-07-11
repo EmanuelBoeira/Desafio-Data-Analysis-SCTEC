@@ -35,6 +35,7 @@ fig.tight_layout()
 
 plt.show()
 
+print(
 '''
 Conclusão
 
@@ -44,3 +45,4 @@ uma grande quantidade de vendas.
 A categoria de produtos que tem mais vendas é a de tecnologia(Technology) e também apresenta o 
 maior lucro, além disso, os 5 produtos com maior lucro também pertencem a essa catogoria.
 '''
+)

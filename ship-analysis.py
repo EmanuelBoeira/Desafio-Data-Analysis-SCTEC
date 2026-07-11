@@ -22,6 +22,7 @@ ax.set_title("Formas de envio")
 
 plt.show()
 
+print(
 '''
 Conclusão
 
@@ -30,3 +31,4 @@ A forma de envio padrão é a mais escolhida.
 Provavelmente, a maioria dos consumidores não acham vantajoso o custo adicional
 em relação as vantagens oferecidas pelos outros métodos. 
 '''
+)

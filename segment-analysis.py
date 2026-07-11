@@ -33,9 +33,11 @@ fig.tight_layout()
 
 plt.show()
 
+print(
 '''
 Conclusão
 
 O seguimento de maior lucro é o de consumo pessoal(Consumer), portanto seria interressante dar maior atenção a este seguimento 
 Neste seguimento, as regiões Leste e Oeste apresentam mais vendas
 '''
+)
