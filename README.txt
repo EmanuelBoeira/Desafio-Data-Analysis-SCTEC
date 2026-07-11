@@ -8,6 +8,12 @@ Informações sobre o código:
 
 Dependências:
     pandas
+    numpy
     matplotlib
 
 Forma de execução:
+    Cada análise deve ser executada separadamente pelo terminal ou no ambiente scylab ao copiar e colar a conteúdo
+    de cada script
+
+    Exemplo:
+    python segment-analysis.py
